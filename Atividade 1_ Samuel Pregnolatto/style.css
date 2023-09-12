@@ -1,0 +1,41 @@
+body {
+    color: #C7F3E8;
+    background-color: #354F52;
+}
+h1, h3 {
+    color: #DEE9D7;
+}
+img {
+    width: 250px;
+}
+.container-imagens{
+    display: flex;
+    flex: 1;
+}
+a {
+    text-decoration: none;
+    color: #C7F3E8;
+}
+nav {
+    background: black;
+    max-width: 300px;
+    border: 3px solid orange;
+    margin-bottom: 60px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    
+}
+table {
+    background-color: black;border:3px solid olivedrab;
+    border-collapse: collapse;
+    
+}
+table 
+th,td{
+padding: 10px;
+text-align: center;
+border: 1px solid olivedrab;
+}

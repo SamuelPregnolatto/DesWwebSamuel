@@ -1,0 +1,6 @@
+Paleta de cores:
+
+Verde muito escuro: #DEE9D7
+Verde Escuro: #354F52
+Verde musgo: #C7F3E8
+
