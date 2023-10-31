@@ -1,0 +1,22 @@
+h2{
+    color: green;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+section {
+    border: 1px solid rgb(243, 83, 9);
+    display: flex;
+    flex-direction: row;
+
+}
+
+#doces{
+    
+}
