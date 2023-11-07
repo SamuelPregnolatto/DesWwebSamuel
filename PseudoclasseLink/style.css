@@ -1,0 +1,33 @@
+img {
+    width: 300px; /* Defina a largura desejada em pixels */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+  }
+
+  h1 {
+    color: #333;
+    padding: 20px;
+    
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .ordenar {
+    display: inline-block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
