@@ -1,0 +1,171 @@
+css espamento curto:
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/imagem\ home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #08080804;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+    padding: 15px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: -15px;
+    background-color: rgba(255, 255, 255, 0.041);
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-item {
+    margin-left:  100px;
+    font-size: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.logo img {
+    max-width: 250%;
+    height: auto;
+    margin-left: -10px;
+    z-index: 2;
+}
+
+.nav-item.login,
+.nav-item.cadastro {
+    margin: 1%;
+    font-size: 15px;
+    margin-bottom: 130px;
+
+}
+
+.nav-item.login {
+    margin-left: 150px;
+}
+#home{
+    margin-left: 330px;
+}
+css espaçamento longo:
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/imagem\ home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #08080804;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+    padding: 15px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: -40px;
+    background-color: rgba(255, 255, 255, 0.041);
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+    
+}
+
+.nav-item {
+    margin-left:  100px;
+    font-size: 18px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.logo, img{
+    max-width: 230px;
+    height: auto;
+    margin-right: -100px;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+
+.nav-item.login,
+.nav-item.cadastro {
+    margin: -1%;
+    font-size: 15px;
+    margin-left: 1200px;
+    margin-top: 35px;
+
+}
+
+#home{
+    margin-left: 30px;
+}
+.nav-log{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#cadastro{
+    margin-left: 20px;
+}
+#login{
+    margin-left: 1150px;
+}
+
+html do espaçamento longo: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem somos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+      <ul class="nav-log">
+          <li class="nav-item login" id="login"><a href="#">Login</a></li>
+          <li class="nav-item login" id="cadastro"><a href="#">Cadastro</a></li> 
+          </ul>
+          <ul class="nav-list">
+          <li class="nav-item" id="home"><a href="#">Home</a></li>
+          <li class="nav-item" id="serviços"><a href="#">Serviços</a></li>
+          <li class="logo"><a href="index.html"><img src="img/ADA 2.png" alt="Logo da Sua Empresa"></a></li>
+          <li class="nav-item" id="quemsomos"><a href="#">Quem Somos</a></li>
+          <li class="nav-item" id="contatos"><a href="#">Contatos</a></li>
+        </ul>
+      </nav>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-container {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+}
+
+.texto-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagem-container:hover .texto-overlay {
+    opacity: 1; /* Tornar o texto completamente visível ao passar o mouse */
+}
+
+.imagem-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagem-container:hover img {
+    transform: scale(1.2); /* Aumentar o tamanho da imagem ao passar o mouse */
+}

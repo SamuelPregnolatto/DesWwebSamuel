@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/11ff3dc9ae.js" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=inicializarMapa" async defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js" defer></script>
+
+</head>
+<body>
+    
+  <header id="header">
+    <nav class="navbar" id="navbar">
+      <ul class="nav-log">
+          <li class="nav-item login" id="login"><a href="#">Login</a></li>
+          <li class="nav-item login" id="cadastro"><a href="#">Cadastro</a></li> 
+          </ul>
+          <ul class="nav-list">
+          <li class="nav-item" id="home"><a href="#">Home</a></li>
+          <li class="nav-item" id="serviços"><a href="#">Serviços</a></li>
+          <li class="logo"><a href="index.html"><img src="img/ADA 2.png" alt="Logo da Sua Empresa" id="logo"></a></li>
+          <li class="nav-item" id="quemsomos"><a href="index.html">Quem Somos</a></li>
+          <li class="nav-item" id="contatos"><a href="#">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+      <section class="home-section">
+        <div class="home-content">
+            <h1 id="bemvindo">Bem-vindo à ADA Company</h1>
+            <p id="slogan">Adaptamos o seu site da maneira que quiser, deixando ele muito mais acessível</p>
+            <a href="#" class="cta-button">Conheça Mais</a>
+        </div>
+        <div class="container">
+          <div class="container-img ativo" onclick="atualizaAtivo(0)">
+            <img id="exemplos"
+              src="https://images.unsplash.com/photo-1591018607803-0b6f5aeb3b6f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p class="titutlo-img"></p>
+          </div>
+          <div class="container-img" onclick="atualizaAtivo(1)">
+            <img id="exemplos"
+              src="https://blog.nascenteazul.com.br/wp-content/uploads/2021/09/chapada-diamantina-bahia-lugares-mais-bonitos-do-brasil.jpg"
+              alt=""
+            />
+            <p class="titutlo-img"></p>
+          </div>
+          <div class="container-img" onclick="atualizaAtivo(2)">
+            <img id="exemplos"
+              src="https://blog.hurb.com/wp-content/uploads/2022/11/lencois-maranhenses-1200x900.jpg"
+              alt=""
+            />
+            <p class="titutlo-img"></p>
+          </div>
+          <div class="container-img" onclick="atualizaAtivo(3)">
+            <img id="exemplos"
+              src="https://blog.nascenteazul.com.br/wp-content/uploads/2021/09/chapada-do-jalapao.jpg"
+              alt=""
+            />
+            <p class="titutlo-img"></p>
+          </div>
+          <div class="container-img" onclick="atualizaAtivo(4)">
+            <img id="exemplos"
+              src="https://images.unsplash.com/photo-1590246185061-2d66d20902f6?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p class="titutlo-img"></p>
+          </div>
+        </div>
+    
+        
+      </section>
+      <footer class="d-grid">
+        <div>
+            <a href="....homePage">
+                <img class="logo1" src="./img/Ada_logo.png" alt="Logo Ada Company">
+            </a>
+            <div class="contact-info">
+                <i class="fa-brands fa-whatsapp mt-5"></i><span> (15) 3238-5266</span> <br>
+                <i class="fa-solid fa-envelope mt-5"></i><span>  contato@adacompany.com.br</span><br>
+                <i class="fa-solid fa-location-dot mt-5"></i><span>  Av. Juscelino Kubitschek de Oliveira, 279 - Votorantim/SP</span>
+            </div>
+        
+            <nav class="d-flex justify-start gap-20">
+                    <a href="https://www.youtube.com/@FatecVotorantim" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/fatec.votorantim/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://br.linkedin.com/in/fatec-votorantim-dsm" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </nav>
+        </div>
+
+        <div>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2226.0559646948127!2d-47.4490959927608!3d-23.53142746993303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b72bdd65027%3A0xb94c5e9f90d48401!2sFatec%20Votorantim!5e1!3m2!1spt-BR!2sbr!4v1699741800003!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="d-flex flex-end justify-end flex-column">
+            <span>© Ada Company</span>
+            <a href="..." target="_blank">Políticas de Privacidade</a>
+        </div>
+    </footer>
+</body>
+</html>

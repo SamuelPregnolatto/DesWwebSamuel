@@ -1,0 +1,205 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--azul_escuro);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+/* Utilizamos Adobe Color */
+:root {
+    --azul_escuro: #01012d;
+    --azul_claro: #2768F5;
+    --azul_escuro2: rgb(0, 11, 34);
+    --roxo:  #AE27F5;
+    --rosa:  #F127F5;
+    --marrom: #c49958;
+    --marrom_destaque: rgb(223, 142, 21);
+    --prata: rgba(245, 245, 245, 0.788);
+}
+
+/* Isso será alterado usando Javascript, criando efeito de moestrar a nav quando user rolar a página. */
+
+nav {
+    padding: 15px;
+    font-size: 1.2rem;
+    color: var(--prata);
+}
+
+nav a.active {
+    color: white; /* destacando a página ativa do user */
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--marrom);
+    margin-top: -0.1rem;
+    margin-bottom: -0.1rem;
+    font-size: 1.3rem
+}
+
+.blue-section {
+    background-color: var(--azul_escuro);
+    color: white;
+}
+
+.emphasis {
+    color: var(--marrom_destaque);
+    font-weight: 900;
+}
+
+.white-section {
+    background-color: white;
+    padding: 60px;
+    color: var(--azul_escuro)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+/*flexbox */
+.container {
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-end {
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Grid */
+.d-grid {
+    display: grid;
+}
+
+.grid-columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+}
+
+.grid-columns-5 {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+
+/*outros */
+.logo-header {
+    height: 80px;
+    width: 100px;
+}
+
+.logo-footer {
+    height: 250px;
+    width: 250px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    background-color: var(--marrom);
+    color: whitesmoke;
+    border-color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Spacing */
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 50px 5px 80px 10px;
+}
+
+footer > div {
+    padding: 40px 40px 15px;
+}
